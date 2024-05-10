@@ -146,7 +146,7 @@ def main():
                     if period == "1h":
 
                         if float(now_price) > float(upper_band2):
-                            str2 = f"如果您是短线交易者，那么从短期来看，目前价格上涨过猛，已远高于正常波动水平，请警惕回调，下方第一支撑位为{upper_band}，第二支撑位为{vwap}（平均筹码价格水平，关键位置）"
+                            str2 = f"hello,如果您是短线交易者，那么从短期来看，目前价格上涨过猛，已远高于正常波动水平，请警惕回调，下方第一支撑位为{upper_band}，第二支撑位为{vwap}（平均筹码价格水平，关键位置）"
                         elif float(now_price) > float(upper_band):
                             str2 = f"如果您是短线交易者，那么从短期来看，目前价格处于高位，上方压力位为{upper_band2}，下方第一支撑位为{upper_band}，第二支撑位为{vwap}（平均筹码价格水平，关键位置）"
                         elif float(now_price) > float(vwap):
